@@ -1,0 +1,46 @@
+{{- define "main" -}}
+
+    
+        
+        {{- partial "navbar.html" . -}}
+        {{- partial "navbar-clone.html" . -}}
+
+        {{- $homepage   := .Site.Params.homepage -}}
+        {{- $title      := index $homepage "title" -}}
+        {{- $subtitle   := index $homepage "subtitle" -}}
+        {{- $image      := index $homepage "image" -}}
+            <div class="column" align="center">
+    
+                <h1 class="title is-1 is-bold is-spaced">
+                {{- $title -}}
+                </h1>
+                {{- with $subtitle -}}
+                <h2 class="subtitle is-5 is-muted">
+                {{ . }}
+                </h2>
+                {{- end -}}
+                {{/*  <p>
+                <a class="button cta rounded primary-btn raised" href="{{- $buttonLink -}}">
+                    {{- $buttonText -}}
+                </a>
+                </p>  */}}
+            </div>
+            <div class="column" align="center">
+        
+     
+                <figure class="image"> 
+                {{- $img := resources.Get $image -}}
+                <img src="{{- $img.Permalink | relURL -}}" 
+                     style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
+                </figure>
+            </div>
+
+
+    {{- partial "footer.html" . -}}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    {{- partial "sidebar.html" . -}}
+
+{{- end -}}
