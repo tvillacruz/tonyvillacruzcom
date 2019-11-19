@@ -78,7 +78,7 @@ params:
     # option to specify the subtitle in the homepage
     subtitle: Notes On Full Stack Problem Solving 
     # option to specify image in the homepage
-    image: "/images/logo.jpg" # worker.svg 
+    image: "/images/logo.png" # worker.svg 
     # option to specify the width of the image in the homepage
     imageWidth: 750px
 
@@ -87,9 +87,9 @@ params:
     # option to specify the logo in the footer
     logo: "/images/refresh-square.svg"
     # option to specify your contact email in the footer
-    email: name.surname@domain.com
+    email: dunhampa@gmail.com
     # option to specify your linkedin profile in the footer
-    linkedin: https://www.linkedin.com/your_linkedin_profile/
+    linkedin: https://www.linkedin.com/in/peteradunham/
     # option to specify your facebook account in the footer; **uncomment** the below line to show in footer
     # facebook: your.username
     # option to specify your twitter username in the footer; **uncomment** the below line to show in footer
