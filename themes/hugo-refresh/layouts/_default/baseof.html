@@ -3,6 +3,7 @@
   <head>
     {{- partial "meta.html" . -}}
     <title>{{- block "title" . -}}{{- .Site.Title -}}{{- end -}}</title>
+  
     {{ partial "css.html" . }}
   </head>
   <body>
@@ -12,7 +13,7 @@
     <div id="preloader">
       <div id="status"></div>
     </div>
-
+  
     {{- block "main" . -}} {{- end -}}
 
     {{- partial "javascript.html" . -}}

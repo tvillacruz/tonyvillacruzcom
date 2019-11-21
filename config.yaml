@@ -1,6 +1,6 @@
 baseURL: https://rightbraintransistor.com
 languageCode: en-us
-title: Creative Code
+title: Pete Dunham
 theme: hugo-refresh
 # theme: ../..
 buildDrafts: true
@@ -13,6 +13,8 @@ blackfriday:
 
 Taxonomies:
   tag: "tags"
+
+enableGitInfo: true
 
 # Supported fonts are:
 # https://fonts.google.com/
