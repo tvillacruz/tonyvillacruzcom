@@ -35,6 +35,7 @@
   
       <div id="cloned-navbar-menu" class="navbar-menu is-static">
         <div class="navbar-end">
+          <a href="/" class="navbar-item is-secondary">Home</a>
           {{ range .Site.RegularPages }}
           {{- if eq .Params.showInMenu true -}}
           <a href="{{- .Permalink | relURL -}}" class="navbar-item is-secondary">

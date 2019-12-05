@@ -1,46 +1,35 @@
-<section class="section is-medium">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-centered-tablet-portrait">
-        <h1 class="title is-2 section-title">{{- .Title -}}</h1>
-        <h5 class="subtitle is-5 is-muted">{{- .Params.Subtitle -}}</h5>
-        <div class="divider"></div>
-        {{/*  <section class="section content">  */}}
-        <section class="section content has-text-justified">
-          <!-- <div class="here here here"> -->
-           <div>project project project </div>
-            
+  {{- $numberOfDefaultImages := 4 -}}
+  <div class="column is-4">
+    <div class="box">
+      <figure class="image is-3by2">
+        {{- $image := "" -}}
+        {{- if .Params.summaryImage -}} 
+          {{- $image = .Page.Resources.GetMatch .Params.summaryImage -}}
+          {{- .Scratch.Set "image" ($image.Resize "600x") -}}
+          {{- $image = .Scratch.Get "image" -}}
+        {{ else }}
+          {{- $image = resources.Get .Site.Params.summary.defaultImage -}}
+          {{- .Scratch.Set "image" ($image.Resize "600x") -}}
+          {{- $image = .Scratch.Get "image" -}}
+        {{- end }}
+        <a href="{{- .Permalink | relURL -}}"><img src="{{- $image.Permalink | relURL -}}" alt=""></a>
+      </figure>
 
+      <h3 class="title is-5 refresh-summary-title">
+        {{ .Params.title }}
+      </h3>
 
-        <div class="columns">
-          <div class="column is-3"></div>
-          <div class="column is-6">
-             {{- .Content -}}
-          </div>
-           
-          <div class="column is-3"></div>
-
-
-
-
-          <!-- </div> -->
-        </section>
-      </div>
-    </div>
-  </div>  
-  <!-- <div class="container">
-    <div class="columns">
-      <div class="column">
-      </div>
-    </div>
-  </div> -->
-  {{- if not .Params.hideLastModified -}}
-  <div class="container">
-    <div class="columns">
-      <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
-        Last modified: {{- .Lastmod.Format "2 January 2006" -}}
+      <p class="refresh-summary">
+        {{- if .Params.summary -}}
+          {{- .Params.summary -}}
+        {{- else }}
+          {{- .Plain -}}
+        {{- end -}}
+      </p> 
+      <div class="action has-text-right">
+        <a href="{{- .Permalink | relURL -}}" class="button is-primary">
+                Read More
+            </a>
       </div>
     </div>
   </div>
-  {{- end -}}
-</section>

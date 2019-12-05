@@ -27,3 +27,4 @@ In my career (and hobbies) I've worked across the stack but the journey is never
 
 ###  [A Happy Little Bug](https://github.com/dunhampa/A_Happy_Little_Bug) \
 Using Processing.org (Java), I enjoy building graphics and animations. The best part of using a programming language for graphical work is that there is no such thing as an ugly bug. Similar to how Bob Ross makes a "happy little tree" out of a accidental brush stroke, a mistake in incrementing a loop counter can create a stacked,colorful facet, instead of an organized array of circles. Or in a Bob Ross analogy a "happy little bug"
+

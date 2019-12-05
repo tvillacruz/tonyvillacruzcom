@@ -28,12 +28,24 @@
             <div class="column" align="center">
         
      
-                <figure class="image"> 
+
+
+ <figure class="image"> 
+                {{- $img := resources.Get $image -}}
+               <img src="/images/test.png"
+                     style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
+                </figure>
+            </div>
+
+
+
+
+            <!--    <figure class="image"> 
                 {{- $img := resources.Get $image -}}
                 <img src="{{- $img.Permalink | relURL -}}" 
                      style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
                 </figure>
-            </div>
+            </div>-->
  
 
 
