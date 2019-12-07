@@ -15,7 +15,7 @@ Taxonomies:
   tag: "tags"
 
 enableGitInfo: true
-
+assetDir: "static"
 # Supported fonts are:
 # https://fonts.google.com/
 
