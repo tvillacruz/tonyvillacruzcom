@@ -3,7 +3,7 @@ languageCode: en-us
 title: Pete Dunham
 theme: hugo-refresh
 # theme: ../..
-buildDrafts: true
+#buildDrafts: true
 HUGO_VERSION: "0.58.3"
 
 disableKinds: ["sitemap","RSS"]

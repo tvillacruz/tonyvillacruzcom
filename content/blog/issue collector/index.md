@@ -1,7 +1,7 @@
 ---
 title: "An Issue Collector"
 date: 2019-11-21T23:53:00+01:00
-draft: true
+draft: false
 hideLastModified: false
 summary: "An Issue Collector"
 summaryImage: "issuecollector.png"
