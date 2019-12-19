@@ -1,7 +1,7 @@
 ---
 title: "SALCI Coming to Life"
 date: 2019-11-18T23:53:00+01:00
-draft: true
+draft: false
 hideLastModified: false
 summary: "SALCI Coming to Life"
 summaryImage: "circle.png"
