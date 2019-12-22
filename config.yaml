@@ -78,7 +78,7 @@ params:
     # option to specify the title in the homepage
     title: Pete Dunham
     # option to specify the subtitle in the homepage
-    subtitle: Notes On Full Stack Problem Solving 
+    subtitle: Projects and Notes On Full Stack Problem Solving 
     # option to specify image in the homepage
     image: "/images/logo.png" # worker.svg 
     # option to specify the width of the image in the homepage

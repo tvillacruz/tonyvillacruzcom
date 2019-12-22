@@ -8,7 +8,7 @@ hideLastModified: true
 ---
 # Hugo Theme Credits
 
-This site was developed using Hugo and the Refresh theme. This theme is a modified version of Refresh. 
+This site was developed using Hugo and modifying the Refresh theme. The unmodified version of the theme is available: 
 
 {{< rawhtml >}}
             <h4>
@@ -20,4 +20,4 @@ This site was developed using Hugo and the Refresh theme. This theme is a modifi
 
 {{< /rawhtml >}}
 
-The theme was developed by [Roberto Jordaney](https://rjordaney.is/). Roberto's website is built on an unmodified version of the same Hugo Refresh theme.
+The (unmodified) theme was developed by [Roberto Jordaney](https://rjordaney.is/). Roberto's website is built Hugo Refresh theme. 
