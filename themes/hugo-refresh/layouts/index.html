@@ -6,34 +6,45 @@
         {{- partial "navbar-clone.html" . -}}
 
         {{- $homepage   := .Site.Params.homepage -}}
-   
-        <div class="columns">
-          <div class="column is-3"></div>
-          <div class="column is-6" align="center">
 
                 {{- $title      := index $homepage "title" -}}
                 {{- $subtitle   := index $homepage "subtitle" -}}
                 {{- $image      := index $homepage "image" -}}
 
-              <h1 class="title is-1 is-bold is-spaced" align="center" >{{- $title -}}</h1>
-                {{- with $subtitle -}}
-                <h2 class="subtitle is-5 is-muted" align="center">
-                {{ . }}
-                </h2>
-               <h2 class="subtitle is-5 is-muted" align="center">Also, Interactive Music and Art From Open Source Hardware and Software</h2>
-                {{- end -}}
-                {{/*  <p>
-                <a class="button cta rounded primary-btn raised" href="{{- $buttonLink -}}">
-                    {{- $buttonText -}}
-                </a>
-                </p>  */}}
-            
-                <figure class="image"> 
-                    {{- $img := resources.Get $image -}}
-                    <img src="{{- $img.Permalink | relURL -}}" 
-                         style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
+
+   <div class="container">
+        <div class="columns">
+        	<div class="column is-2"></div>
+          
+          <div class="column is-3">
+          	
+ 					<figure class="image"> 
+	                    {{- $img := resources.Get $image -}}
+	                    <img src="{{- $img.Permalink | relURL -}}" 
+	                         style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
                     </figure>
-                </div>
+ 					<div>&nbsp</div>
+ 					 <h1 class="title is-3 is-bold is-spaced" align="center" >{{- $title -}}</h1>
+
+
+
+	              
+	                <h2 class="subtitle is-5 is-muted" align="center">
+	              Full Stack Problem Solver<p>Data Scientist<p>Interactive Music and Art Coder
+	                </h2>
+	              
+	               <h2 class="subtitle is-5 is-muted" align="center">
+	              
+	                </h2>
+	               
+	                </div>
+
+
+          </div>
+          <div class="column is-4" align="center">
+
+
+          
 
 
 
@@ -43,7 +54,7 @@
           <div class="column is-3"></div>
         </div>
 
-
+</div>
      
 
 
