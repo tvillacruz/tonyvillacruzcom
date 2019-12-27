@@ -16,12 +16,12 @@
         <div class="columns">
         	<div class="column is-2"></div>
           
-          <div class="column is-3">
+          <div class="column is-3" align="center">>
           	
  					<figure class="image"> 
 	                    {{- $img := resources.Get $image -}}
 	                    <img src="{{- $img.Permalink | relURL -}}" 
-	                         style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
+	                         style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself" align="center">
                     </figure>
  					<div>&nbsp</div>
  					 <h1 class="title is-3 is-bold is-spaced" align="center" >{{- $title -}}</h1>

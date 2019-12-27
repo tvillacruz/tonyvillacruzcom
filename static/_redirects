@@ -1,6 +1,6 @@
 # Redirects from what the browser requests to what we serve
 
-/shiny/Interactive_Ohio_BirthData/              https://petedunham.com/shiny/Interactive_Ohio_BirthData/
-/shiny/Gambler_Roll/	 https://petedunham.com/shiny/Gambler_Roll/
+/shiny/Interactive_Ohio_BirthData/              https://stage.petedunham.com/shiny/Interactive_Ohio_BirthData/
+/shiny/Gambler_Roll/	 https://stage.petedunham.com/shiny/Gambler_Roll/
 #/news              /blog
 #/cuties            https://www.petsofnetlify.com

@@ -8,6 +8,7 @@
         {{- range $name, $tag := .Site.Taxonomies.tags -}}
             {{- with $.Site.GetPage (printf "/tags/%s" $name) -}}
                 <section class="section">
+                    Terms html
                     <div class="container">
                         <div class="columns">
                         <div class="column is-centered-tablet-portrait">
