@@ -12,51 +12,73 @@
                 {{- $image      := index $homepage "image" -}}
 
 
-   <div class="container">
-        <div class="columns">
-        	<div class="column is-2"></div>
+   <div class="container is-medium">
+       <div class="columns is-multiline is-mobile">
+        	
           
-          <div class="column is-3" align="center">
-          	
- 					<figure class="image"> 
-	                    {{- $img := resources.Get $image -}}
-	                    <img src="{{- $img.Permalink | relURL -}}" 
-	                         style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself" align="center">
-                    </figure>
- 					<div>&nbsp</div>
- 					 <h1 class="title is-3 is-bold is-spaced" align="center" >{{- $title -}}</h1>
+          <div class="column is-quarter" align="center">	
+ 					  <figure class="image"> 
+  	          {{- $img := resources.Get $image -}}
+  	         <img src="{{- $img.Permalink | relURL -}}" 
+  	                         style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself" align="center">
+            </figure>
+ 					 <div>&nbsp</div>
+ 					 
+           <h1 class="title is-3 is-bold is-spaced" align="center" >{{- $title -}}</h1>
 
 
-
+   
+	         <h3 class="subtitle is-10 is-muted" align="center">
+	           
+                Full Stack Problem Solver<p>Data Scientist<p>Interactive Music and Art Coder
+              
+	         </h3>
 	              
-	                <h2 class="subtitle is-5 is-muted" align="center">
-	              Full Stack Problem Solver<p>Data Scientist<p>Interactive Music and Art Coder
-	                </h2>
-	              
-	               <h2 class="subtitle is-5 is-muted" align="center">
-	              
-	                </h2>
+	         <h2 class="subtitle is-5 is-muted" align="center"></h2>
 	               
-	                </div>
+	        </div>
 
+        <div class="column is-three-quarters">
+          <div>&nbsp</div>
+          <div>&nbsp</div>
+          <div>&nbsp</div>
+         <h3 class="subtitle is-10 is-bold is-spaced" align="left" >
+        Hi, I’m Pete. I’ve created this blog for a place to share projects, tutorials, and notable troubleshooting-to-solution journeys. I am always interested in meeting new people with similar projects and always open to constructive feedback. Feel free to reach out.
 
-          </div>
-          <div class="column is-4" align="center">
+        Here are some examples of my projects and topics I am interested in:</h3>
 
-
-          
-
-
-
-
-          </div>
+        <style>.inline-svg {
+          display: inline-block;
+          height: 3rem;
+          width: 3rem;
+          top: 0rem;
+          position: relative;
+        }</style>
+          <div class="columns is-multiline is-mobile">
+          <div class="column" align="center"> 
+            {{ partial "fontawesome.html" "layer-group" }}
            
-          <div class="column is-3"></div>
+
+            <h2 class="subtitle is-5 has-black-text" align="center">
+                Full Stack Problem Solver
+           </h2></div>
+           
+          <div class="column" align="center">
+            <img src="/images/datascience.png" 
+                             alt="data science icon" align="center">
+            <h2 class="subtitle is-5 is-muted" align="center">Data Science</h2>
+            
+         </div>
+
+
+          <div class="column" align="center"><h2 class="subtitle is-5 is-muted" align="center">
+                Interactive Music and Art Coding
+           </h2></div>
+
         </div>
-
+      </div>
 </div>
-     
-
+</div>
 
  <!--<figure class="image"> 
                 {{- $img := resources.Get $image -}}
