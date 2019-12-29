@@ -17,7 +17,7 @@
 
                 {{- $pagesEachPage := 3 -}}
                   <div class="columns">
-                    {{- range $index, $element := .Pages -}}
+                    {{- range $index, $element := .Pages.ByWeight -}}
                         {{- if eq (mod $index $pagesEachPage) 0 -}}
                           </div>
                           <div class="columns">

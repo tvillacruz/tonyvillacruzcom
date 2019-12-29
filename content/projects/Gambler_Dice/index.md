@@ -7,6 +7,7 @@ hideLastModified: false
 summary: "A R Shiny App showing cheat probability of a cheat die in a population. Is a simple demo of Bayes' theorem"
 summaryImage: "gambler_roll.png"
 tags: ["R","Shiny"]
+weight: 3
 ---
 
 Testing
