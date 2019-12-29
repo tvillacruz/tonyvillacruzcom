@@ -1,9 +1,9 @@
 ---
-title: "Blog Inspiration"
+title: "My Personal Website Inspiration"
 date: 2019-11-18T23:53:00+01:00
 draft: false
 hideLastModified: false
-summary: "Blog Inspiration and Motivation"
+summary: "The Inspiration and Motivation Behind Creating My Personal Website"
 summaryImage: "circle.png"
 tags: ["inspiration"]
 ---
@@ -12,15 +12,17 @@ I was contemplating (procrastinating) this blog for sometime but I was finally p
 
 [The unreasonable effectiveness of public work - David Robinson](https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work) 
 
-
-
 <div style="position:relative;padding-top:56.25%;">
   <iframe src="https://www.youtube.com/embed/th79W4rv67g"" frameborder="0" allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
+<div>&nbsp</div>
 
-A paraphrased punchline from this talk is that information stored on your own computer is almost always less valuable than information that is openly shared.  
+Prior to finding this talk, I had randomly relied on several of David's (the presenter) open source contributions:
 
+*	To understand something [The Beta Distribution](http://varianceexplained.org/statistics/beta_distribution_and_baseball/)
+*	To do something [Natural Language Processing](https://www.tidytextmining.com/)
+*	And to get better [Tidy Thinking](https://www.youtube.com/watch?v=sD993H5FBIY)
 
-My hope is that a post or link here will eventually find a person that would of otherwise hit the dreaded "no results" from Google when searching for or insight into a problem.  
+This made his talk even more powerful and personal for me since I have directly benefited by some of his stated examples!
