@@ -10,4 +10,6 @@ project_order:
     order: 1
   - name: Gambler_Dice
     order: 2
+- name: SALCI
+    order: 3
 ---
