@@ -10,7 +10,12 @@ tags: ["R","Shiny"]
 weight: 3
 ---
 
-Testing
+bayes_shiny.png
+
+![This is an image](bayes_shiny.png)
+
+
+<img src="bayes_shiny.png" alt="Bayes Shiny" style="width:100%">
 
 
 
