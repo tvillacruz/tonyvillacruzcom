@@ -1,0 +1,13 @@
+
+<ul>
+    <!-- orders content according to the "date" field in front matter -->
+  
+{{ $pages := union (where $.Site.RegularPages "Section" "projects") (where $.Site.RegularPages "Section" "blog") }}
+
+  {{ range first 3 $pages.ByDate.Reverse }}
+        <li>
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+            <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+        </li>
+    {{ end }}
+</ul>
