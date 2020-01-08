@@ -6,6 +6,7 @@ hideLastModified: false
 summary: "The Inspiration and Motivation Behind Creating My Personal Website"
 summaryImage: "circle.png"
 tags: ["inspiration"]
+weight: 1
 ---
 	
 I was contemplating (procrastinating) this blog for sometime but I was finally pushed over the edge by this excellent talk: 

@@ -14,16 +14,19 @@
               <div class="section is-small">
                 <div class="container">
 
-                {{- $pagesEachPage := 3 -}}
+                {{- $pagesEachPage := 2 -}}
                   <div class="columns">
                     
 					{{ $pages := union (where $.Site.RegularPages "Section" "projects") (where $.Site.RegularPages "Section" "blog") }}
 
-  					{{ range first 3 $pages.ByDate.Reverse }}
 
-                    	{{.Render "summary"}}
+  					{{range first 2 $pages.ByWeight }}
+
+                    	{{.Render "summary-1col"}}
+
                     	
                     {{- end -}}
+                  </div>
                   </div>
                 </div>
               </div>
@@ -31,3 +34,7 @@
           </div>
         </div>
     </section>
+
+{{ printf "%#v" $pages}}
+{{$lenpages := (len $pages)}}
+{{printf "%#v" $lenpages}}
