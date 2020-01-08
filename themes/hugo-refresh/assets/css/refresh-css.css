@@ -11,10 +11,10 @@
 
 .refresh-summary{
   display: -webkit-box;
-  -webkit-line-clamp: 15; /*was 3 */
+  /*-webkit-line-clamp: 15; /*was 3 */
   -webkit-box-orient: vertical;  
   overflow: hidden;
-  height: 8em;/*was 4.5 */
+  height: 100%;/*was 8em 4.5 */
   text-overflow: ellipsis;
 }
 
