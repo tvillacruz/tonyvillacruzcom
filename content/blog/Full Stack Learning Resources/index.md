@@ -5,7 +5,7 @@ draft: false
 hideLastModified: false
 summary: "Full stack learning summary"
 tags: ["Full Stack"]
-weight: 1
+weight: 3
 ---
 
 Testing
