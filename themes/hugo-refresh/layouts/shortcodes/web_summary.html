@@ -1,0 +1,42 @@
+{{- $original := (.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Get "image")) -}}
+{{/* - $width    := printf "%s" (.Get "width" ) -*/}}
+{{/*- $height   := printf "%s" (.Get "height") -*/}}
+{{/*- $size     := printf "%sx%s" $width $height -*/}}
+{{- $size     := printf "%s" (.Get "size") -}}
+<div class="box">
+ 
+    
+        <!-- <figure class="image is-128x128"> -->
+     {{ $url := .Get "mylink"}}
+ 		 <figure class="image">
+          {{- with $original -}}
+          {{- $image := .Resize "x600" -}}
+          
+          <a href="{{$url}}"><img src="{{ $image.RelPermalink }}" alt="web link"></img></a>
+          {{- end -}}
+        </figure>
+
+<p>
+      <h3 class="title is-5 refresh-summary-title">
+        {{ .Params.title }}
+      </h3>
+           <p class="refresh-summary">
+        {{- if .Params.summary -}}
+          {{- .Params.summary -}}
+        {{- else }}
+          {{- .Plain -}}
+        {{- end -}}
+      </p> 
+               <div class="action has-text-right">
+        <a href="{{$url}}" class="button is-primary">
+                Go
+            </a>
+      </div>
+      </div>
+   
+  </div>
+
+
+
+
+  

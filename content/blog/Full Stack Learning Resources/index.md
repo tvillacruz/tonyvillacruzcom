@@ -16,7 +16,7 @@ From time to time I get asked about what resources I can recommend to someone lo
 
   The full article is available online for free [here](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/).  
 
-Because of some visual animations I find the online version somewhat difficult to consume. I recommend googling for the PDF and reading that (also free).   I treasure my soft copy but they seem to be difficult to come by. {{</book>}} 
+Because of some visual animations I find the online version somewhat difficult to consume. I recommend googling for the PDF and reading that (also free).{{</book>}} 
 
 
 {{< book title="Steve Yegge’s Google+/AWS Rant" authors="Steve Yegge" image="images/fullstack.png" size="x600">}} </h1><p>The rant is available <a href="https://gist.github.com/chitchcock/1281611">here</a> and is a great retrospective on the rise of <em>platform as a service.</em></p><p>Buried in this angry rant are some nuggets on Amazon’s transition to AWS and platform approach. The rant is from 2011 but has history back to mid-2000s.</p><p>The summary below is  taken from <a href="https://en.wikipedia.org/wiki/Steve_Yegge">this wikipedia article</a>: 
@@ -33,10 +33,8 @@ Because of some visual animations I find the online version somewhat difficult t
 
  Read [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 
-Joel cofounded StackOverflow. But before that, he wrote 12 Steps to Better Code which was the precusor to the cultural shift to Agile and DevOps. The 12 steps seem like no-brainers now but that's because Joel articulated them in the post and the post made its rounds. 
+Joel cofounded StackOverflow. But before that, he wrote 12 Steps to Better Code which was the precusor to the cultural shift to Agile and DevOps. The 12 steps seem like no-brainers now but that's because Joel articulated them in this post and then this post made its rounds. 
 
 {{</book>}} 
-
-
 
 
