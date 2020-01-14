@@ -13,12 +13,21 @@ I was contemplating (procrastinating) this blog for sometime but I was finally p
 
 [The unreasonable effectiveness of public work - David Robinson](https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work) 
 
+
+<div class="columns">
+<div class="column is-3"></div>
+<div class="column is-6">
 <div style="position:relative;padding-top:56.25%;">
   <iframe src="https://www.youtube.com/embed/th79W4rv67g"" frameborder="0" allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
 <div>&nbsp</div>
+
+</div>
+
+<div class="column is-3"></div>
+</div>
 
 Prior to finding this talk, I had randomly relied on several of David's (the presenter) open source contributions:
 
