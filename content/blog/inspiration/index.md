@@ -1,9 +1,9 @@
 ---
-title: "Creating Personal Website: Inspiration"
+title: "Inspiration For Creating a Personal Website"
 date: 2019-11-18T23:53:00+01:00
 draft: false
 hideLastModified: false
-summary: "Inspiration sources for creating your own personal website"
+summary: "I was inspired to create a website by an excellent talk, a though provoking book, and open source sharing in other personal websites. I'm resharing them here"
 summaryImage: "circle.png"
 tags: ["inspiration"]
 weight: 1
@@ -74,10 +74,10 @@ Since social media and web-based communication is now core to every enterprise a
 
 
 <div class="columns">
-<div class="column is-4">{{< web_summary title="Dean Attali: R-Shiny Expert / Software Tool Builder / Extreme Traveller" mylink="https://deanattali.com/" image="images/DeanAttali.png" size="600x" summary="Dean shares open source projects related to R's shiny package. He has a great post on setting up your own open source Shiny Server">}} </div>
-<div class="column is-4">{{< web_summary title="Alison Hill: Up and Running With Blogdown" mylink="https://alison.rbind.io/project/up-running-blogdown/" image="images/alisonhill.png" size="600x" summary="Alison shared a series about getting up and running with Blogdown. The workshop slides which are shared shows how to a Hugo site up and running with Netifly">}} </div>
+<div class="column is-4">{{< web_summary title="Dean Attali: R-Shiny Expert / Software Tool Builder / Extreme Traveller" mylink="https://deanattali.com/" image="images/DeanAttali.png" size="600x" summary="I've used Dean's website to learn how to setup an  open source Shiny Server,discovery new Shiny best practices, and leverage his developed R packages">}} </div>
+<div class="column is-4">{{< web_summary title="Alison Hill: Up and Running With Blogdown" mylink="https://alison.rbind.io/project/up-running-blogdown/" image="images/alisonhill.png" size="600x" summary="I referenced Alison's website while making the dive into Hugo for setting up my website. Alison shared a series about getting up and running with Blogdown using Hugo. I used her workshop slides for my approach on getting my Hugo site up and running with Netifly">}} </div>
 <div class="column is-4">
-{{< web_summary title="Roberto Jordaney: Personal blog for fun and profit" mylink="https://rjordaney.is/" image="images/rjordaney.png" size="600x" summary="Roberto created the Hugo Refresh theme. My site is is build on that theme as a foundation with some significant mods. ">}} 
+{{< web_summary title="Roberto Jordaney: Personal blog for fun and profit" mylink="https://rjordaney.is/" image="images/rjordaney.png" size="600x" summary="Roberto created the Hugo Refresh theme. My site is is build on that theme as a foundation with some significant mods. Roberto's Refresh theme aesthetic was a fit for me. He's also been helpful in provided feedback and fixes as I have used his theme">}} 
 </div>
 
 </div>

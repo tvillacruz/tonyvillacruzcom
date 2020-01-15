@@ -3,9 +3,10 @@ title: "Full Stack Learning Resources"
 date: 2020-01-07T23:53:00+01:00
 draft: false
 hideLastModified: false
-summary: "From time to time I get asked about what resources I can recommend to someone looking to expand their “Full Stack” skill set.  I’ll continue to grow the list below but below are resources I highly recommend. "
+summaryImage: "fullstack.png"
+summary: "From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is a list. My attempt at assembling a full stack canon. "
 tags: ["Full Stack"]
-weight: 3
+weight: 1
 ---
 
 From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is a list. My attempt at assembling a full stack canon:
@@ -36,5 +37,27 @@ Because of some visual animations I find the online version somewhat difficult t
 Joel cofounded StackOverflow. But before that, he wrote 12 Steps to Better Code which was the precusor to the cultural shift to Agile and DevOps. The 12 steps seem like no-brainers now but that's because Joel articulated them in this post and then this post made its rounds. 
 
 {{</book>}} 
+
+
+
+{{< book title="The Unix Shell" authors="Software Carpentry Foundation" image="images/terminal_icon.png" size="x600">}} 
+
+Course, Walk-Thru Here:[The Unix Shell](https://swcarpentry.github.io/shell-novice/)
+
+Using a computer terminal, shell, command line is a requirement for doing full stack development.  I found this free course, The Unix Shell, by SW Carpentry to be an amazingly comprehensive crash course on using the Unix Shell.
+
+Here is the introduction taken directly from the site:
+
+{{< rawhtml >}}
+{{< exercise >}}
+The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so they aren’t typing the same things over and over again. Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” supercomputers). These lessons will start you on a path towards using these resources effectively.
+{{< /exercise >}}
+{{< /rawhtml >}}
+
+
+{{</book>}} 
+
+
+
 
 
