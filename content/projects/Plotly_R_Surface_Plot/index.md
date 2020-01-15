@@ -11,21 +11,13 @@ tags: ["R", "Plotly"]
 
 
 
+<img src="Board_V3.gif" alt="Flowers in Chania">
 
-<video controls autoplay loop>
-  <source src="ChuckRotate_v2_480.mp4" type="video/mp4">
-</video>
-
-
-<video controls autoplay loop>
-  <source src="board_1_480.mp4" type="video/mp4">
-</video>
+<img src="Chuck_V8.gif" alt="Flowers in Chania">
 
 
 
-<video controls autoplay loop>
-  <source src="ChuckRotate_v3_480.mp4" type="video/mp4">
-</video>
+
 
 
 
