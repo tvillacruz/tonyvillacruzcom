@@ -21,7 +21,7 @@
 <link href="{{- $fontUrl1 -}}" rel="stylesheet">
 <link href="{{- $fontUrl2 -}}" rel="stylesheet">
 <link href="{{- $fontUrl3 -}}" rel="stylesheet">
-<link href="css/bootstrap.css" rel="stylesheet">
+
 
 {{- $css  := resources.Get $sass | resources.ExecuteAsTemplate $scss . | toCSS $cssOpts -}}
 {{- $css1 := resources.Get "css/monokai-sublime.9.15.8.min.css" -}}
