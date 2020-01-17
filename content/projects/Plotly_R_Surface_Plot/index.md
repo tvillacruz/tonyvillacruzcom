@@ -11,7 +11,7 @@ tags: ["R", "Plotly"]
 
 This post discusses how R and Plotly (graphing library) were used to create interactive 3D images of scanned objects (a semiconductor plate and a circuit board).
 
-<center><img src="Chuck_V8.gif" alt="3D Interactive Chuck"></center>
+<center><img src="Chuck_V11.gif" alt="3D Interactive Chuck"></center>
 
 # Background 
 
@@ -31,7 +31,7 @@ However, there has been many times that R breaks out of the "data science" box i
 
 # Example
 
-<img src="Board_V3.gif" alt="3D Interactive Board">
+<img src="Board_V4.gif" alt="3D Interactive Board">
 
 
 # Code
