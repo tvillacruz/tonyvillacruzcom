@@ -3,7 +3,7 @@ title: "Inspiration For Creating a Personal Website"
 date: 2019-11-18T23:53:00+01:00
 draft: false
 hideLastModified: false
-summary: "I was inspired to create a website by an excellent talk, a though provoking book, and open source sharing in other personal websites. I'm resharing them here"
+summary: "I was inspired to create a website by an excellent talk, a thought provoking book, and other personal websites sharing their projects and journeys."
 summaryImage: "circle.png"
 tags: ["inspiration"]
 weight: 1
@@ -14,7 +14,6 @@ I was contemplating (procrastinating) this website for sometime but I was finall
 - Watching [this excellent talk](#Talk)
 - Reading [this book](#Book)
 - Referencing others' [personal sites](#Sites)
-
 
 
 <a id="Talk"></a>

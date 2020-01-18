@@ -5,7 +5,7 @@ draft: false
 summaryImage: "3DScansPlotly.png"
 hideLastModified: false
 type: "project"
-summary: "This post shows how R and Plotly were used to create interactive 3D images of scanned objects (a semiconductor plate and a circuit board). "
+summary: "Using R and Plotly to create surface plots that can be shared and rendered responsively in web browsers"
 summaryImage: "3DScansPlotly.png"
 tags: ["R", "Plotly"]
 ---
@@ -31,6 +31,8 @@ The examples on this page are screen captures of interaction through the web. To
 </center>
 <center><img src="Board_V4.gif" alt="3D Interactive Board"></center>
 
+# Code
+
 The trick for me was getting the 3 dimensional x,y,z into a format for a surface plot to render. This required finding a new package "akima" to use an interpolation function before sending Plolty. 
 
 The source code with this trick can be found in this GitHub Repo:
@@ -41,14 +43,6 @@ The source code with this trick can be found in this GitHub Repo:
               </span>
             </a>
 
-
-
-
-
-
-
-
-# Code
 
 The R code exert, below,  shows the prep of x,y,and z data to surface data for rendering using [Plotly](https://plot.ly/r/3d-surface-plots/).
 

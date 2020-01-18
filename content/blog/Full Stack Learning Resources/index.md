@@ -1,15 +1,15 @@
 ---
-title: "Full Stack Learning Resources"
+title: "Full Stack Canon (Reading)"
 date: 2020-01-07T23:53:00+01:00
 draft: false
 hideLastModified: false
 summaryImage: "fullstack.png"
-summary: "From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is a list. My attempt at assembling a full stack canon. "
+summary: "From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is my on-going attempt to assemble a full stack canon."
 tags: ["Full Stack"]
 weight: 1
 ---
 
-From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is a list. My attempt at assembling a full stack canon:
+From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is my on-going attempt to assemble a full stack canon:
  
 {{< book title="What is Code?" authors="Paul Ford" image="images/What_is_Code.jpg" size="x600">}} This article explains everything on the software spectrum from burning barrels full of cash to what it takes a computer to print an “A” on the screen. 
 
