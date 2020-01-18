@@ -1,40 +1,57 @@
 ---
-title: "3D Scanned Images Using R and Plotly"
+title: "Surface Plots Using R and Plotly"
 date: 2019-11-18T23:53:00+01:00
 draft: false
+summaryImage: "3DScansPlotly.png"
 hideLastModified: false
 type: "project"
-summary: "3D Scanned Images Using R and Plotly"
-summaryImage: "circle.png"
+summary: "This post shows how R and Plotly were used to create interactive 3D images of scanned objects (a semiconductor plate and a circuit board). "
+summaryImage: "3DScansPlotly.png"
 tags: ["R", "Plotly"]
 ---
 
-This post discusses how R and Plotly (graphing library) were used to create interactive 3D images of scanned objects (a semiconductor plate and a circuit board).
 
+<center>
+### Example 1:
+</center>
 <center><img src="Chuck_V11.gif" alt="3D Interactive Chuck"></center>
 
-# Background 
 
-As an R champion I've used the R ecosystem of open source packages to deliver rewarding data pipelines and  business insights. This aligns with how others talk about R, per Wikipedia as:
 
-{{< rawhtml >}}
-{{< exercise >}}
-R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing
-{{< /exercise >}}
-{{< /rawhtml >}}
+R is widely known as a data science/statistical programming language. However with the breadth of available packages and diverse R community, I have found that R can break out of the data science box in amazingly powerful ways. 
 
-However, there has been many times that R breaks out of the "data science" box in amazingly valuable and artist ways, because R's ecosystem has:
+For example, I was able to use R and [Plotly](https://plot.ly/) to create interactive 3D images of scanned objects. I had 3D scanning data from a motion system and used the R to create highly responsive 3D images that can be shared over the web!
 
- - a enoromous breadth of available R packages
- - robust documentation for most packages
- - and support of an open R community 
+The examples on this page are screen captures of interaction through the web. To interactive with these plots directly you can navigation to the interactive plots (which I host on GitHub) here:
 
-# Example
+[Click Here to Interact With The Plots](https://dunhampa.github.io/R_3D_Scanner_Plotting/)
 
-<img src="Board_V4.gif" alt="3D Interactive Board">
+<center>
+### Example 2:
+</center>
+<center><img src="Board_V4.gif" alt="3D Interactive Board"></center>
+
+The trick for me was getting the 3 dimensional x,y,z into a format for a surface plot to render. This required finding a new package "akima" to use an interpolation function before sending Plolty. 
+
+The source code with this trick can be found in this GitHub Repo:
+            <a href="https://github.com/dunhampa/R_3D_Scanner_Plotting" title="R 3D Scanning Plotting">
+              <span class="fa-stack fa-lg aria-hidden="true"">
+                <i class="fa fa-circle fa-stack-2x aria-hidden="true""></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse aria-hidden="true""></i>
+              </span>
+            </a>
+
+
+
+
+
+
 
 
 # Code
+
+The R code exert, below,  shows the prep of x,y,and z data to surface data for rendering using [Plotly](https://plot.ly/r/3d-surface-plots/).
+
 ```{r setup, include=FALSE}
   library(dplyr)
   library(akima)
@@ -64,7 +81,7 @@ However, there has been many times that R breaks out of the "data science" box i
   
   data<-data.frame(x,y,z)
   circuitToPlot <- with(data,interp(x,y,z, yo=yop, xo=xop, duplicate="mean"))
-  #with(circuitToPlot,image(x,y,z))
+ 
   
   plot_ly(z=circuitToPlot$z, type="surface")%>% 
     layout(
