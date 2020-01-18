@@ -22,9 +22,7 @@ R is widely known as a data science/statistical programming language. However wi
 
 For example, I was able to use R and [Plotly](https://plot.ly/) to create interactive 3D images of scanned objects. I had 3D scanning data from a motion system and used the R to create highly responsive 3D images that can be shared over the web!
 
-The examples on this page are screen captures of interaction through the web. To interactive with these plots directly you can navigation to the interactive plots (which I host on GitHub) here:
-
-[Click Here to Interact With The Plots](https://dunhampa.github.io/R_3D_Scanner_Plotting/)
+The examples on this page are just screen captures of interaction through the web. [Click Here to Interact With The Plots](https://dunhampa.github.io/R_3D_Scanner_Plotting/)
 
 <center>
 ### Example 2:
