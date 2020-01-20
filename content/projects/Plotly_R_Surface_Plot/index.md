@@ -20,9 +20,17 @@ tags: ["R", "Plotly"]
 
 R is widely known as a data science/statistical programming language. However with the breadth of available packages and diverse R community, I have found that R can break out of the data science box in amazingly powerful ways. 
 
-For example, I was able to use R and [Plotly](https://plot.ly/) to create interactive 3D images of scanned objects. I had 3D scanning data from a motion system and used the R to create highly responsive 3D images that can be shared over the web!
+For example, R and [Plotly](https://plot.ly/) can be used as a powerful graphical interface to a mechanical 3D scanner. 
 
-The examples on this page are just screen captures of interaction through the web. [Click Here to Interact With The Plots](https://dunhampa.github.io/R_3D_Scanner_Plotting/)
+I used it in this manner by taking raw 3-dimensional coordinate data (x,y,z), captured from a robotic scanning system.  Using R and Plotly it was possible to output highly responsive 3D surface plots that can easily be shared over the web! (The examples on this page)
+
+The examples on this page are just screen captures of interaction through the web:
+<center>
+<div class="action">
+        <a href="https://dunhampa.github.io/R_3D_Scanner_Plotting/" class="button is-primary">
+                Click Here to Interact With The Plots
+            </a>
+      </div></center>
 
 <center>
 ### Example 2:

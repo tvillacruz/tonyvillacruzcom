@@ -17,7 +17,27 @@ bayes_shiny.png
 
 <img src="bayes_shiny.png" alt="Bayes Shiny" style="width:100%">
 
+<style>
 
+#scaled-frame { width: 100%; height: 750px; border: 0px; }
+#scaled-frame {
+    zoom: 1;
+    -moz-transform: scale(1);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(1);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 0 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #scaled-frame  { zoom: 1;  }
+}
+</style>
+
+<iframe id="scaled-frame" src="https://apps.petedunham.com/shiny/Gambler_Roll/"></iframe>
+
+<iframe src="https://apps.petedunham.com/shiny/Gambler_Roll/" style="border: 0px  width: 100%; height: 750px;"  ></iframe>
 
 
 
