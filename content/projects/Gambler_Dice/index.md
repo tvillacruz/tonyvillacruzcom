@@ -17,6 +17,7 @@ bayes_shiny.png
 
 <img src="bayes_shiny.png" alt="Bayes Shiny" style="width:100%">
 
+<!--https://collaboration133.com/how-to-scale-iframe-content-in-ie-chrome-firefox-and-safari/2717/-->
 <style>
 
 #scaled-frame { width: 100%; height: 750px; border: 0px; }
