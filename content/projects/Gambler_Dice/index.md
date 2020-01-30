@@ -10,22 +10,36 @@ tags: ["R","Shiny"]
 weight: 3
 ---
 
-I came across an interesting probability problem that required me to dust off my knowledge of Bayes' theorem in order to solve.
+This post demostrates an application of Bayes' theorem into an R and Shiny application.
 
-I won't get into the math since it is available everywhere. The part I wanted to write down is the example for intuition. 
+- [Shiny App](#ShinyApp)
+- [Inspirational Resources](#Resource)
 
-For example: If a die is loaded (is a cheat) to roll a 6 more often, how certain can you be that it is loaded after your roll two sixes in a roll.  Parameters that matter are:
 
-1. How loaded is the dice? For instance, will 6 appear every 3 rolls, every roll, every 2 rolls
-2. How many loaded dice is there? Is there only 1 loaded dice out of a million. You would have to be pretty unlucky to pick that one
-3. How many rolls produced a 6?
+# Background:
 
+I came across an interesting probability question that required me to dust off my knowledge of Bayes' theorem in order to solve. For me, there is no better way to understand theory than incorporating it into an application. I decided to work the probability question and model into an R/Shiny application (embedded on this page below). 
+
+The question to solve: 
+
+{{< rawhtml >}}
+{{< exercise >}}
+A casino die is loaded to roll a six 50% of the time. This is, of course, as opposed to a fair dice that would roll a six 16.7% of the time (1/6).  The cheat die is included in a box of 100 dice.  A gambler choses a random die from the box and procedes to roll 3 sixes in a row.  What is the probabiliity that the die is the cheat? 
+{{< /exercise >}}
+{{< /rawhtml >}}
 
 
 <!--https://collaboration133.com/how-to-scale-iframe-content-in-ie-chrome-firefox-and-safari/2717/-->
+
+<a id="ShinyApp"></a>
+# R/Shiny App:
+
+The Shiny app below is served from an R server. You can change the inputs on the left to update the graphical and text output. 
+
+
 <style>
 
-#scaled-frame { width: 100%; height: 750px; border: 0px; }
+#scaled-frame { width: 100%; height: 750px; border: 5px; }
 #scaled-frame {
     zoom: 1;
     -moz-transform: scale(1);
@@ -34,6 +48,7 @@ For example: If a die is loaded (is a cheat) to roll a 6 more often, how certain
     -o-transform-origin: 0 0;
     -webkit-transform: scale(1);
     -webkit-transform-origin: 0 0;
+    border: 5px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -41,10 +56,32 @@ For example: If a die is loaded (is a cheat) to roll a 6 more often, how certain
 }
 </style>
 
-<iframe id="scaled-frame" src="https://apps.petedunham.com/shiny/Gambler_Roll/"></iframe>
+<iframe id="scaled-frame" src="https://apps.petedunham.com/shiny/Gambler_Roll/" style="border:3px solid lightgrey;"></iframe>
 
 
 
+# Source Code
+
+{{< rawhtml >}}
+            
+              <h4>
+              <a href="https://github.com/dunhampa/Gambler_Roll" target="_blank">
+                <span class="icon"><i class="fa fa-github"></i></span>
+                Source code on GitHub
+              </a>
+              </h4>
+         
+
+{{< /rawhtml >}}
+
+
+
+<a id="Resource"></a>
+# Inspiration Resources:
+
+I came across the blog "The Chemical Statitician" by Eric Cai. He had a related post where he discussed implementing the same problem in R.  This post and related code inspired the Shiny app above:
+
+<div class="column is-4">{{< web_summary title="The Chemical Statistician" mylink="https://chemicalstatistician.wordpress.com/2013/10/30/detecting-an-unfair-die-with-bayes-theorem/" image="images/TheChemicalStatistician.png" size="600x" summary="Eric Cai's post 'Detecting Unfair Dice in Casinos with Bayes’ Theorem' provided inspiration for this Shiny app" >}} </div>
 
 
 
