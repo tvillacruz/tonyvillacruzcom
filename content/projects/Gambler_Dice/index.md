@@ -10,12 +10,17 @@ tags: ["R","Shiny"]
 weight: 3
 ---
 
-bayes_shiny.png
+I came across an interesting probability problem that required me to dust off my knowledge of Bayes' theorem in order to solve.
 
-![This is an image](bayes_shiny.png)
+I won't get into the math since it is available everywhere. The part I wanted to write down is the example for intuition. 
+
+For example: If a die is loaded (is a cheat) to roll a 6 more often, how certain can you be that it is loaded after your roll two sixes in a roll.  Parameters that matter are:
+
+1. How loaded is the dice? For instance, will 6 appear every 3 rolls, every roll, every 2 rolls
+2. How many loaded dice is there? Is there only 1 loaded dice out of a million. You would have to be pretty unlucky to pick that one
+3. How many rolls produced a 6?
 
 
-<img src="bayes_shiny.png" alt="Bayes Shiny" style="width:100%">
 
 <!--https://collaboration133.com/how-to-scale-iframe-content-in-ie-chrome-firefox-and-safari/2717/-->
 <style>
@@ -38,7 +43,6 @@ bayes_shiny.png
 
 <iframe id="scaled-frame" src="https://apps.petedunham.com/shiny/Gambler_Roll/"></iframe>
 
-<iframe src="https://apps.petedunham.com/shiny/Gambler_Roll/" style="border: 0px  width: 100%; height: 750px;"  ></iframe>
 
 
 
