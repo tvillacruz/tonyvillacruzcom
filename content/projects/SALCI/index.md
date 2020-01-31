@@ -34,11 +34,11 @@ Since 2013, I've tried to maintain the open source code, parts list, and build i
 {{< /rawhtml >}}
 
 # Demos 
-
+{{< rawhtml >}}
 
 <div class="columns">
-<div class="column is-3"></div>
-<div class="column is-6">
+<div class="column is-2"></div>
+<div class="column is-8">
 <div style="position:relative;padding-top:56.25%;">
   <iframe src="https://www.youtube.com/embed/x3eckIDz-VE" frameborder="0" allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
@@ -48,15 +48,15 @@ Since 2013, I've tried to maintain the open source code, parts list, and build i
 
 </div>
 
-<div class="column is-3"></div>
+<div class="column is-2"></div>
 </div>
 
 
 
 
 <div class="columns">
-<div class="column is-3"></div>
-<div class="column is-6">
+<div class="column is-2"></div>
+<div class="column is-8">
 <div style="position:relative;padding-top:56.25%;">
   <iframe src="https://www.youtube.com/embed/yWSs64QKAcg" frameborder="0" allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
@@ -66,5 +66,6 @@ Since 2013, I've tried to maintain the open source code, parts list, and build i
 
 </div>
 
-<div class="column is-3"></div>
+<div class="column is-2"></div>
 </div>
+{{< /rawhtml >}}
