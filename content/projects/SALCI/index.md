@@ -40,7 +40,7 @@ Since 2013, I've tried to maintain the open source code, parts list, and build i
 <div class="column is-2"></div>
 <div class="column is-8">
 <div style="position:relative;padding-top:56.25%;">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/x3eckIDz-VE" frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x3eckIDz-VE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div>&nbsp</div>
