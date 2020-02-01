@@ -23,6 +23,7 @@ assetDir: "static"
 # https://konpa.github.io/devicon/
 # https://bulkitv2.cssninja.io/_components-icons-fa.html
 
+
 params:
   # parameter used to specify if you want to minify the imported js
   jsMinify: false
