@@ -1,4 +1,4 @@
-{{- define "main" -}}
+{{- define "main"  -}}
 
     {{- partial "navbar.html" . -}}
     {{- partial "navbar-clone.html" . -}}
@@ -10,13 +10,12 @@
             <div class="column is-centered-tablet-portrait">
               <h1 class="title section-title">{{- .Page.Title -}}</h1>
               <h5 class="subtitle is-5 is-muted">{{- .Params.Subtitle -}}</h5>
-              Here in list
               <div class="divider"></div> 
               <div>&nbsp</div>
      
               <div class="section is-small">
                 <div class="container">
-                {{- .Content -}}  
+                {{- $.Content -}}  
                 {{- $pagesEachPage := 3 -}}
                   <div class="columns">
                     {{- range $index, $element := .Pages.ByWeight -}}
