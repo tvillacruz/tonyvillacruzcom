@@ -27,7 +27,7 @@ I used it in this manner by taking raw 3-dimensional coordinate data (x,y,z), ca
 The examples on this page are just screen captures of interaction through the web:
 <center>
 <div class="action">
-        <a href="https://dunhampa.github.io/R_3D_Scanner_Plotting/" class="button is-primary">
+        <a href="https://dunhampa.github.io/R_3D_Scanner_Plotting/" target="_blank" class="button is-primary">
                 Click Here to Interact With The Plots
             </a>
       </div></center>
