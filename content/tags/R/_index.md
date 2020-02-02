@@ -7,12 +7,3 @@ type: R
 ---
 
 
-## Demos 
-
-Some text
-some **bold**
-
-## Background
-
-Some more text
-
