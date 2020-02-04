@@ -8,6 +8,7 @@ type: "project"
 summary: "Using R and Plotly to create surface plots that can be shared and rendered responsively in web browsers"
 summaryImage: "3DScansPlotly.png"
 tags: ["R", "Plotly"]
+weight: 2
 ---
 
 
