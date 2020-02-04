@@ -24,13 +24,13 @@ For example, R and [Plotly](https://plot.ly/) can be used as a powerful graphica
 
 I used it in this manner by taking raw 3-dimensional coordinate data (x,y,z), captured from a robotic scanning system.  Using R and Plotly it was possible to output highly responsive 3D surface plots that can easily be shared over the web! (The examples on this page)
 
-The examples on this page are just screen captures of interaction through the web:
-<center>
+The examples on this page are videos of me interacting with the plots. If you want to interact with the same plots click the button below:
+<left>
 <div class="action">
         <a href="https://dunhampa.github.io/R_3D_Scanner_Plotting/" target="_blank" class="button is-primary">
                 Click Here to Interact With The Plots
             </a>
-      </div></center>
+      </div></left>
 
 <center>
 ### Example 2:
@@ -39,7 +39,7 @@ The examples on this page are just screen captures of interaction through the we
 
 # Code
 
-The trick for me was getting the 3 dimensional x,y,z into a format for a surface plot to render. This required finding a new package "akima" to use an interpolation function before sending Plolty. 
+The trick for me was getting the 3 dimensional x,y,z into a format for a surface plot to render. This required finding a new package "akima" to use an interpolation function before sending to the Plolty package. 
 
 The source code with this trick can be found in this GitHub Repo:
             <a href="https://github.com/dunhampa/R_3D_Scanner_Plotting" title="R 3D Scanning Plotting">
