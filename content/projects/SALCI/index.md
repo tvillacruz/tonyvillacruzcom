@@ -15,7 +15,7 @@ weight: 3
 **S**ensor **A**rray **L**ight **C**ontrolled **I**nstrument:
 A networked music instrument I envisioned and built as part of a team using open source Arduino hardware/software. This instrument uses sensors to measure changes in light conditions and generates MIDI data that can be synthesized in various forms.
 
-Since 2013, I've tried to maintain the open source code, parts list, and build instructions to allow anyone to create there own music instrument and music instrument network. 
+Since 2013, I've worked to maintain the open source code, parts list, and build instructions to allow anyone to create there own music instrument and music instrument network. 
 
 
 # Source Code
@@ -35,6 +35,7 @@ Since 2013, I've tried to maintain the open source code, parts list, and build i
 
 # Demos 
 
+Here are some quick demos of me synthesizing some music on SALCI by using shadows. 
 
 <div class="columns">
 <div class="column is-3"></div>
