@@ -6,4 +6,3 @@ summary: "Hello, there R list"
 type: R
 ---
 
-

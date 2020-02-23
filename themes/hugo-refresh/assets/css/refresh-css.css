@@ -1,24 +1,32 @@
+
+
 .refresh-summary-title{
   position: relative;
   margin: 10px 0 0 0;
   margin-bottom: 10px !important;
   padding: 0 0 5px 0;
   max-width: 100%;
-  overflow: hidden;
+  overflow: hidden
+  height: 10em;
   white-space: nowrap;
   text-overflow: ellipsis;
   white-space: normal !important;
 }
 
+
+
 .refresh-summary{
   display: -webkit-box;
-  /*-webkit-line-clamp: 15; /*was 3 */
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;  
   overflow: hidden;
-  height: 100%;/*was 8em 4.5 */
+  height: 6em;
   text-overflow: ellipsis;
-  white-space: normal !important;
 }
+
+
+
+
 
 /* .pre-colorless{
   pre{
