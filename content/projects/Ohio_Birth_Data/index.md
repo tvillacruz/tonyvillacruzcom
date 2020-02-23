@@ -41,7 +41,7 @@ The shinydashboard is best viewed and used in a full tab:
 
 # Shiny Dashboard:
 
-<a href="https://apps.petedunham.com/shiny/Interactive_Ohio_BirthData/"><img src="OhioBirthData.png" alt="Bayes Shiny" style="width:100%"></a>
+<a href="https://apps.petedunham.com/shiny/Interactive_Ohio_BirthData/"><img src="OhioBirthData.png" alt="Bayes Shiny" style="width:75%"></a>
 
 # Code
 
