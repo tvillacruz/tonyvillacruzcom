@@ -81,8 +81,18 @@ The Shiny app below is served from an R server. You can change the inputs on the
 # Inspiration Resources:
 
 I came across the blog "The Chemical Statitician" by Eric Cai. He had a related post where he discussed implementing the same problem in R.  This post and related code inspired the Shiny app above:
+ 
 
-<div class="column is-4">{{< web_summary title="The Chemical Statistician" mylink="https://chemicalstatistician.wordpress.com/2013/10/30/detecting-an-unfair-die-with-bayes-theorem/" image="images/TheChemicalStatistician.png" size="600x" summary="Eric Cai's post 'Detecting Unfair Dice in Casinos with Bayes’ Theorem' provided inspiration for this Shiny app" >}} </div>
+
+{{< book title="The Chemical Statistician" authors="Eric Cai" image="images/TheChemicalStatistician.png" size="x600">}} 
+
+ Read [Detecting Unfair Dice in Casinos with Bayes’ Theorem](https://chemicalstatistician.wordpress.com/2013/10/30/detecting-an-unfair-die-with-bayes-theorem/)
+
+Eric Cai's post 'Detecting Unfair Dice in Casinos with Bayes’ Theorem' provided inspiration for this Shiny app 
+
+{{</book>}} 
+
+
 
 
 

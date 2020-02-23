@@ -7,37 +7,24 @@
           
         <div class="columns">
           <div class="column is-2"></div>
-          <div class="column is-8" align="left">
+          <div class="column is-8 is-centered has-text-left" align="left">
+              <div class="container">
              
- <div class="container">
-    <div class="columns">
-     <!-- <div class="column is-centered-tablet-portrait">-->
-      <div class="column has-text-left">
-        <h1 class="title is-2 section-title">{{- .Title -}}</h1>
-        <h5 class="subtitle is-5 is-muted">{{- .Params.Subtitle -}}</h5>
-        <div class="divider"></div>
-<br>
-<br>
-
-             {{- .Content -}}
-          </div>
+                    <!-- <div class="column is-centered-tablet-portrait">-->
+                      
+                        <h1 class="title is-2 section-title">{{- .Title -}}</h1>
+                        <h5 class="subtitle is-5 is-muted">{{- .Params.Subtitle -}}</h5>
+                        <div class="divider"></div>
+                        <br>
+                        <br>
+                        {{- .Content -}}
+              </div>
            
           <div class="column is-2"></div>
+        </div>
 
-
-
-
-          <!-- </div> -->
         </section>
-      </div>
-    </div>
-  </div>  
-  <!-- <div class="container">
-    <div class="columns">
-      <div class="column">
-      </div>
-    </div>
-  </div> -->
+</section>
   {{- if not .Params.hideLastModified -}}
   <div class="container">
     <div class="columns">
