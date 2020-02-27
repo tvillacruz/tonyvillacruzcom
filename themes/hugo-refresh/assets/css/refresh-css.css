@@ -70,3 +70,16 @@
   width: 100%;
   height: 100%;
 }
+
+.box .btn-holder {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+#c2 {  flex-direction: column; }
+
+
