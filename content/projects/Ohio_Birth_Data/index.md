@@ -1,5 +1,5 @@
 ---
-title: "Click-able Map Dashboard: Ohio Birth Data Exploration"
+title: "Ohio Birth Data Exploration: Clickable Map Analytics Using Leaflet in Shiny"
 date: 2020-02-03T23:53:00+01:00
 draft: false
 type: "project"

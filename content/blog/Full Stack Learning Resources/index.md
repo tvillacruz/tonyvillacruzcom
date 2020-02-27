@@ -34,7 +34,7 @@ Because of some visual animations I find the online version somewhat difficult t
 
  Read [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 
-Joel cofounded StackOverflow. But before that, he wrote 12 Steps to Better Code which was the precusor to the cultural shift to Agile and DevOps. The 12 steps seem like no-brainers now but that's because Joel articulated them in this post and then this post made its rounds. 
+Joel cofounded StackOverflow. But before that, he wrote 12 Steps to Better Code (in August 2000!) which was the precusor to the cultural shift to Agile and DevOps. The 12 steps seem like no-brainers now but that's because Joel articulated them in this post and then this post made its rounds. 
 
 {{</book>}} 
 

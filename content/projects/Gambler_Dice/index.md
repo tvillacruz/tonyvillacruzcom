@@ -36,6 +36,7 @@ A casino die is loaded to roll a six 50% of the time. This is, of course, as opp
 
 The Shiny app below is served from an R server. You can change the inputs on the left to update the graphical and text output. 
 
+The shiny application is embedded in an iFrame below. On some devices it may require scrolling within the iFrame. It might look better to view the app in its own browser tab by clicking <a href="https://apps.petedunham.com/shiny/Gambler_Roll/" target="_blank">here</a>.
 
 <style>
 
