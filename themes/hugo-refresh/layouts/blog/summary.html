@@ -22,8 +22,9 @@
         {{ .Params.title }}
       </h3>
       <h4>
-       {{.Date.Format "2006-01-02"}}
+       {{.Date.Format "Monday, Jan 2, 2006"}}
      </h4>
+     <br>
       <p class="refresh-summary">
         {{- if .Params.summary -}}
           {{- .Params.summary -}}
