@@ -1,32 +1,36 @@
-{{- define "main" -}}
+{{- define "main"  -}}
 
     {{- partial "navbar.html" . -}}
     {{- partial "navbar-clone.html" . -}}
 
 
-    <section class="section is-medium">
+    <section class="section is-small">
         <div class="container">
-  
+          <div class="columns">
+            <div class="column is-centered-tablet-portrait">
               <h1 class="title section-title">{{- .Page.Title -}}</h1>
               <h5 class="subtitle is-5 is-muted">{{- .Params.Subtitle -}}</h5>
-              <div class="divider"></div>        
+              <div class="divider"></div> 
+              <div>&nbsp</div>
+     
               <div class="section is-small">
                 <div class="container">
-
+                {{- $.Content -}}  
                 {{- $pagesEachPage := 3 -}}
-                  <div class="columns  is-flex-tablet">
-                    {{- range $index, $element := .Pages -}}
+                  <div class="columns">
+                    {{- range $index, $element := .Pages.ByWeight -}}
                         {{- if eq (mod $index $pagesEachPage) 0 -}}
                           </div>
-                          <div class="columns is-flex-tablet">
+                          <div class="columns">
                         {{- end -}}
-                        
+                    
                        {{.Render "summary"}}
                     {{- end -}}
                   </div>
                 </div>
               </div>
-       
+            </div>
+          </div>
         </div>
     </section>
     

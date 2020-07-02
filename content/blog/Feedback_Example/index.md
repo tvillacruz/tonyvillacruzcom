@@ -1,17 +1,44 @@
 ---
-title: "Full Stack Canon (Reading)"
+title: "Feedback Issue Collector Test"
 date: 2020-01-07T23:53:00+01:00
-draft: false
+draft: true
 hideLastModified: false
 summaryImage: "fullstack.png"
-summary: "From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is my on-going attempt to assemble a full stack canon."
+summary: "Issue Collector"
 tags: ["Full Stack"]
 weight: 4
 ---
 
+
+
+
 {{< rawhtml >}}
-<script type="text/javascript" src="https://rbtlabs.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/ghusgb/b/20/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=af32d163"></script>
-{{< /rawhtml >}}
+
+<!-- This is the script for the issue collector feedback form -->
+
+<script type="text/javascript" src="https://rbtlabs.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/rzvw4p/b/23/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=9351b067"></script>
+
+<!-- This is the script for specifying the custom trigger. -->
+
+<script type="text/javascript">
+    window.ATL_JQ_PAGE_PROPS =  {
+        "triggerFunction": function(showCollectorDialog) {
+            //Requries that jQuery is available! 
+            jQuery("#feedback-button").click(function(e) {
+                e.preventDefault();
+                showCollectorDialog();
+            });
+        }
+    };
+</script>
+
+<a href="#" id="feedback-button" class='btn btn-primary btn-large'>Report feedback</a>
+
+
+
+{{< rawhtml >}}
+
+
 
 
 From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is my on-going attempt to assemble a full stack canon:

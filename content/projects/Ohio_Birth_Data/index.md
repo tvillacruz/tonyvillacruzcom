@@ -51,6 +51,10 @@ I wanted to document a couple of tricks I picked up along the way specifically r
 
 The entire source code of the app is available [here](https://github.com/dunhampa/Interactive_Ohio_BirthData). The exert below shows how to add pop-ups windows to clickable section of the map. 
 
+
+
+
+
 ```{r setup, include=FALSE}
  map<-leaflet(SingleState,options = leafletOptions(zoomControl = FALSE, 
               zoomLevelFixed = TRUE, dragging=FALSE, minZoom = 7, maxZoom = 7) ) %>%
@@ -73,6 +77,15 @@ The entire source code of the app is available [here](https://github.com/dunhamp
 
 
 ```
+
+<style>
+
+hljs-ln{
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+
 
 
 
