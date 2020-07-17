@@ -1,6 +1,6 @@
-baseURL: https://petedunham.com
+baseURL: https://tonyvillacruz.com
 languageCode: en-us
-title: Pete Dunham
+title: Tony Villa-Cruz
 theme: hugo-refresh
 # theme: ../..
 #buildDrafts: true
@@ -77,7 +77,7 @@ params:
   # homepage options
   homepage:
     # option to specify the title in the homepage
-    title: Pete Dunham
+    title: Tony Villa-Cruz
     # option to specify the subtitle in the homepage
     subtitle: Projects and Notes On Full Stack Problem Solving 
     # option to specify image in the homepage
@@ -90,9 +90,9 @@ params:
     # option to specify the logo in the footer
     logo: "/images/refresh-square.svg"
     # option to specify your contact email in the footer
-    email: dunhampa@gmail.com
+    email: tonyvillacruz@gmail.com
     # option to specify your linkedin profile in the footer
-    linkedin: https://www.linkedin.com/in/peteradunham/
+    linkedin: https://www.linkedin.com/in/jose-villa-cruz-acp-csm-prosci-45147559/
     # option to specify your facebook account in the footer; **uncomment** the below line to show in footer
     # facebook: your.username
     # option to specify your twitter username in the footer; **uncomment** the below line to show in footer
@@ -100,4 +100,4 @@ params:
     # option to specify your instagram username in the footer; **uncomment** the below line to show in footer
     # instagram: username
     # option to specify the copyright in the footer
-    copyright: Pete Dunham - 2020
+    copyright: Tony Villa-Cruz - 2020
