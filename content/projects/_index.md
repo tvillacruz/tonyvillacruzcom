@@ -6,10 +6,6 @@ draft: false
 
 
 project_order:
-  - name: 3DScan_AsHTML
+  - name: SALCI
     order: 1
-  - name: Gambler_Dice
-    order: 2
-- name: SALCI
-    order: 3
 ---
