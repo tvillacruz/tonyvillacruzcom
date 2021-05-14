@@ -8,7 +8,7 @@ showInMenu: true
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
 
-Hello! My name is Tony Villa-cruz. I am an aspiring full stack problem solver with experience in business analytics, project management, & process design. Some other areas of expertise include organizational change management, training facilitation, Jira project administration, agile project management, and REST API development.
+Hello! My name is Tony Villa-Cruz. I am an aspiring full stack problem solver with experience in business analytics, project management, & process design. Some other areas of expertise include organizational change management, training facilitation, Jira project administration, agile project management, and REST API development.
 
 Here are some example projects and topics I am interested in:
 
